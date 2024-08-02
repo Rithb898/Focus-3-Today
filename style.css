@@ -123,6 +123,87 @@ main {
   color: #d9d9d9;
 }
 
+.goal-hidden {
+  display: none;
+}
+
+.btn{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.add-task-btn {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.404);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.add-task-btn:hover {
+  background-color: #48a300;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.add-task-btn:active {
+  transform: translateY(-1px);
+}
+
+.reset-btn {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.404);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.reset-btn:hover {
+  background-color: #48a300;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.reset-btn:active {
+  transform: translateY(-1px);
+}
+
+.note {
+  font-weight: 500;
+  font-size: 10px;
+  text-align: center;
+  color: #000000;
+  margin-top: 32px;
+}
+
+.note-text {
+  font-weight: 500;
+  font-size: 10px;
+  /* text-align: center; */
+  color: #858585;
+  margin-top: 32px;
+}
+
 .quote {
   font-weight: 500;
   text-align: center;
@@ -133,7 +214,7 @@ main {
   font-size: 10px;
   text-align: center;
   color: #858585;
-  margin-top: 64px;
+  margin-top: 32px;
 }
 
 .completed .custom-checkbox {
@@ -184,5 +265,3 @@ main {
     height: 24px;
   }
 }
-
-

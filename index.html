@@ -5,8 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Focus 3 Today</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Style+Script&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
+
+    <!-- <script src="sc.js"></script> -->
   </head>
   <body>
     <main>
@@ -23,53 +31,62 @@
           </div>
           <p class="error-label">Please set all the 3 goals!</p>
         </div>
+        <div class="goals">
+          <div class="goal-container">
+            <div class="custom-checkbox">
+              <img
+                class="check-icon"
+                src="asset/right tick.svg"
+                alt="check-icon"
+              />
+            </div>
+            <input
+              id="first"
+              class="goal-input"
+              type="text"
+              placeholder="Add new goal... "
+            />
+          </div>
+          <div class="goal-container">
+            <div class="custom-checkbox">
+              <img
+                class="check-icon"
+                src="asset/right tick.svg"
+                alt="check-icon"
+              />
+            </div>
+            <input
+              id="second"
+              class="goal-input"
+              type="text"
+              placeholder="Add new goal... "
+            />
+          </div>
+          <div class="goal-container">
+            <div class="custom-checkbox">
+              <img
+                class="check-icon"
+                src="asset/right tick.svg"
+                alt="check-icon"
+              />
+            </div>
+            <input
+              id="third"
+              class="goal-input"
+              type="text"
+              placeholder="Add new goal... "
+            />
+          </div>
+        </div>
 
-        <div class="goal-container">
-          <div class="custom-checkbox">
-            <img
-              class="check-icon"
-              src="asset/right tick.svg"
-              alt="check-icon"
-            />
-          </div>
-          <input
-            id="first"
-            class="goal-input"
-            type="text"
-            placeholder="Add new goal... "
-          />
+        <!-- <div class="btn">
+          <button class="add-task-btn">Add Tasks</button>
+          <button class="reset-btn">Reset Tasks</button>
+        </div> -->
+        <div class="note">
+          Note:
+          <span class="note-text">All Goals are Reset at Midnight 12:00</span>
         </div>
-        <div class="goal-container">
-          <div class="custom-checkbox">
-            <img
-              class="check-icon"
-              src="asset/right tick.svg"
-              alt="check-icon"
-            />
-          </div>
-          <input
-            id="second"
-            class="goal-input"
-            type="text"
-            placeholder="Add new goal... "
-          />
-        </div>
-        <div class="goal-container">
-          <div class="custom-checkbox">
-            <img
-              class="check-icon"
-              src="asset/right tick.svg"
-              alt="check-icon"
-            />
-          </div>
-          <input
-            id="third"
-            class="goal-input"
-            type="text"
-            placeholder="Add new goal... "
-          />
-        </div>
-
         <p class="quote">“Move one step ahead, today!”</p>
         <p class="made-with">Made with ❤️ by Rith Banerjee</p>
       </div>
